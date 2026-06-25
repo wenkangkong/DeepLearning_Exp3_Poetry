@@ -1,0 +1,33 @@
+# 深度学习模型文件（体积巨大，GitHub不支持）
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# 数据文件夹（不包含原始数据）
+data/
+models/
+logs/
+runs/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境（用的是 venv，不传上去）
+.venv/
+venv/
+env/
+poetry_env/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# PyInstaller 打包目录
+build/
+dist/
+*.spec
